@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="/css/stayle.css">
+   <title>test</title>
+</head>
+
+<body>
+   <div class="wrappper">
+      <main class="main-content">
+         <div class="main-content__conteiner _container">
+            <div class="main-content__body body">
+               <picture class="body__imge">
+                     <source type= "image/webp" srcset="images/webp/w_200.webp"/>
+               <source type="image/jpeg" srcset="images/jpg/w_200.jpg" />
+               <img src="images/jpg/w_200.jpg" alt="Obraz" />
+               </picture>
+               <div class="body__opis">
+                  <h1 class="body__titel">lorem ipsum</h1>
+                  <p class="body__text">
+                     Infinitely scalable, feature-rich and cloud-native data management and
+                     protection for modern and legacy infrastructures and SaaS platforms, managed
+                     via a single app with no hardware required.
+                  </p>
+                  <div class="body__button"><a href="#modal_open">Button</a></div>
+               </div>
+               <div id="modal_open" class="body__my_modal my_modal">
+                  <div class="my_modal-dialog">
+                     <div class="my_modal-content _container">
+                        <div class="my_modal-header">
+                           <p class="my_modal-title">alert!</p>
+                           <a href="#" title="Zamknij okno modalne" class="close">×</a>
+                        </div>
+                        <div class="my_modal-body">
+                           <p>You have clicked X times to related button.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+   </div>
+</body>
+
+</html>
